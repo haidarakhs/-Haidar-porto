@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    <title>Haidar | Porto</title>
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&family=Gruppo&family=Quicksand:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <!-- icon -->
+    <link rel="icon" type="image/x-icon" href="./images/planrift logo.png">
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/CustomEase.min.js"></script>
+    
+
+</head>
+<body>
+    <div class="opening">
+        <div class="header-text">
+            <div class="the-header">
+                <h1 class="big-header-1">H</h1>
+                <h1 class="big-header-2">A</h1>
+                <h1 class="big-header-3">I</h1>
+                <h1 class="big-header-4">D</h1>
+                <h1 class="big-header-5">A</h1>
+                <h1 class="big-header-6">R</h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-- <div id="loading">
+  <img id="loading-image" src="./images/loadings.gif" alt="Loading..." />
+</div> -->
+    <!-- Nav -->
+    
+    <nav data-aos="slide-down" data-aos-delay="1000" data-aos-duration="1000">
+        <ul class="navbar">
+            <li class="main-logo">
+                <a href="#home">
+                    <img src="img/logo.png" alt="PlanRift">
+                </a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-text" href="#home">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-text" href="#portfolio">portfolio</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-text" href="#skills">Skills</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-text" href="#sample">Project</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-call" href="https://wa.me/6281313172616?text=PlanRift">
+                    <i class="material-icons">call</i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- end nav -->
+    <!-- header -->
+    <header>
+        <div class="bg-vid" id="home">
+            <video class="background" width="1920" autoplay muted loop id="street">
+                <source class="vid" src="img/jakarta keras.mp4" type="video/mp4">
+              </video>
+        </div>
+        <div class="container header-container background">
+            <div class="header-content">
+                <h1 class="title">I'm</h1> 
+                <div>
+                <h1 class="name">Haidar Akbar <br><br> Hamman <br><br> Setiawan</h1>
+                </div>
+                <div class="line"></div>
+                <p style="width: 40vw;">Panggil saya raja front - end</p>
+            </div>
+            
+        </div>
+    </header>
+    <!-- end header -->
+    <main>
+    <!-- portfolio -->
+        <article>
+            <section class="portfolio">
+                <div class="portfolio-title">
+                    <h1>portfolio</h1>
+                </div>
+                <div class="portfolio-nav"></div>
+                <div class="portfolio-title-2" id="portfolio">
+                    <h1 data-aos="fade-up" data-aos-duration="700">M</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="50">A</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">N</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">G</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">Y</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">A</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">D</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">E</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="350">K</h1>
+                </div>
+                <div class="container portfolio-things">
+                    <div class="portfolio-left">
+                        <div class="image-me" data-aos="fade-right" data-aos-once="false" data-aos-duration="1000">
+                            <img class="my-img" src="img/foto.png" alt="this should've been a photo of me">
+                            <img src="img/foto2.jpg" class="my-img-small" alt="">
+                        </div>
+                            
+                    </div>
+                    <div class="portfolio-right">
+                        <div class="portfolio-text">
+                            <div class="line-horizontal"></div>
+                            <div data-aos="fade-left" data-aos-once="false" data-aos-duration="1000"><h5>I'm</h5></div>
+                            <div data-aos="fade-left" data-aos-once="false" data-aos-duration="1000" data-aos-delay="100"><h2 class="DZIKRA">HAIDAR</h2></div>
+                            <div data-aos="fade-left" data-aos-once="false" data-aos-duration="1000" data-aos-delay="200"><h2 class="MUFIDA">AKBAR</h2></div>
+                            <div data-aos="fade-left" data-aos-once="false" data-aos-duration="1000" data-aos-delay="300"><h2 class="TOVID">HAMMAN</h2></div>
+                            <div data-aos="fade-left" data-aos-once="false" data-aos-duration="1000" data-aos-delay="350"><h2 class="TOVID">SETIAWAN</h2></div>
+                         </div>
+                    </div>
+                </div>
+                <div class="main-porto">
+                    <div class="portfolio-title-3" id="portfolio">
+                        <h1 data-aos="fade-up" data-aos-duration="700">A</h1>
+                        <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="50">B</h1>
+                        <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">O</h1>
+                        <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">U</h1>
+                        <h1 class="T" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">T</h1>
+                        <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">M</h1>
+                        <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">E</h1>
+                    </div>
+                    
+                        <div class="container portfolio-main">
+                            <div class="porto-me-left">
+                                <div class="about-me-title">
+                                    <div class="about" data-aos="fade-right" data-aos-once="false" data-aos-duration="1000"><h2>ABOUT</h2></div>
+                                    <div class="me" data-aos="fade-right" data-aos-once="false" data-aos-duration="1000" data-aos-delay="50"><h2>ME</h2></div>
+                                </div>
+                                <div class="line-2"></div>
+                                <div class="porto-me-text" data-aos="fade-in" data-aos-once="false" data-aos-duration="1000">
+                                    <p>As a student at SMK IDN Boarding School Bogor, I am dedicated to developing my skills as a web developer, video editor, and graphic designer.<br> <br>
+                                        My passion for technology and drive for excellence has led me to explore and hone my skills from a young age.<br><br>
+                                        
+                                </div>
+                            </div>
+                            <div class="porto-me-right" data-aos="fade-left" data-aos-once="false" data-aos-duration="1000">
+                                <img src="img/foto3.jpg" alt="" class="me-car">
+                            </div>
+                        </div>
+                            <div class="certi-container">
+                                <div class="portfolio-title-4" id="portfolio">
+                                    <h1 data-aos="fade-up" data-aos-duration="700">C</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="50">E</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">R</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">T</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">I</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="250">F</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">I</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="350">C</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">A</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="450">T</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="500">E</h1>
+                                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-delay="550">S</h1>
+                                </div>
+                                    <div class="certificate" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+                                        <div class="certi-1" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+                                            
+                                                <img class="the-certi" src="img/html.png" alt="">
+                                            </a>
+                                            <h5 class="certi-desc">Js Programming<br>-Dicoding</h5>
+                                        </div>
+                                        <div class="certi-2" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="200">
+                                            
+                                                <img class="the-certi" src="img/css.png" alt="">
+                                            </a>
+                                            <h5 class="certi-desc">Front End Website<br>-Dicoding</h5>
+                                        </div>
+                                        <div class="certi-3"data-aos="fade-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="400">
+                                       
+                                                <img class="the-certi" src="img/robotik.png" alt="">
+                                            </a>
+                                            <h5 class="certi-desc">Robotic<br>-ROCI</h5>
+                                        </div>
+                                        <div class="certi-4"data-aos="fade-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="600">
+                                          
+                                                <img class="the-certi" src="img/dicodig-removebg-preview.png" alt="">
+                                            </a>
+                                            <h5 class="certi-desc">Fundamental Front-End<br>-Dicoding</h5>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+                <div class="portfolio-talent">
+                    <div class="portfolio-title-talent" id="skills" data-aos="fade-in" data-aos-once="false" data-aos-duration="1000">
+                        <h1>SKILLS</h1>
+                        <div class="line-3"></div>
+                    </div>
+                    <div class="talent-container">
+                            <div class="container talent">
+                                <div class="talent-editing-left">
+                                    <h2 data-aos="fade-right" data-aos-once="false" data-aos-duration="1000" class="video-editing">
+                                        VIDEO EDITING
+                                    </h2>
+                                    <p class="video-editing-text" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">A skilled video editor with 5 years of experience in the field, having worked on projects for individuals, schools, and personal use. delivering work that exceeds expectations and meets client's needs.</p>
+                                    <div class="experience" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="200">
+                                        <h2>VFX, SFX, 3D, Rotoscoping, Velocity.</h2>
+                                    </div>
+                                </div>
+                                <div class="talent-editing-right" data-aos="fade-left" data-aos-once="false" data-aos-duration="1000">
+                                    <video autoplay muted loop id="editing-img">
+                                        <source id="speed" class="vid" src="img/vidio 3.mp4" type="video/webm">
+                                    </video>
+                                    <div class="gradient"></div>
+                                </div>
+                            </div>
+                        <div class="line-talent"></div>
+                        <div class="container talent">
+                            <div class="talent-editing-left">
+                                <h2 class="video-editing" data-aos="fade-right" data-aos-once="false" data-aos-duration="1000" class="video-editing">
+                                    WEB DEVELOPER
+                                </h2>
+                                <p class="video-editing-text" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">At my school, the focus is solely on web development, providing me with a strong foundation and the ability to create visually appealing and functional websites.</p>
+                                <div class="experience" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="200">
+                                    <h2>HTML, CSS, INNER CSS, BOOTSTRAP, Javascript</h2>
+                                </div>
+                            </div>
+                            <div class="talent-editing-right" data-aos="fade-left" data-aos-once="false" data-aos-duration="1000">
+                                <video autoplay muted loop id="editing-img">
+                                    <source class="vid" src="img/VIDIO 2.mp4" type="video/webm">
+                                </video>
+                            </div>
+                        </div>
+                        <div class="line-talent"></div>
+                        <div class="container talent">
+                            <div class="talent-editing-left">
+                                <h2 class="video-editing" data-aos="fade-right" data-aos-once="false" data-aos-duration="1000" class="video-editing">
+                                    Graphic Designer
+                                </h2>
+                                <p class="video-editing-text" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">Experienced in photo editing and design since elementary school, creating visually appealing and impactful works through my passion and attention to detail.</p>
+                                <div class="experience" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000" data-aos-delay="200">
+                                    <h2>Masking, Color Grading, Coloring, Vector Designing.</h2>
+                                </div>
+                            </div>
+                            <div class="talent-editing-right" data-aos="fade-left" data-aos-once="false" data-aos-duration="1000">
+                                <video autoplay muted loop id="editing-img">
+                                    <source class="vid" src="img/Viido grapich.mp4" type="video/webm">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sample">
+                    <div class="sample-title" id="sample">
+                        <h1>PROJECT</h1>
+                        <div class="line-3"></div>
+                    </div>
+                    <div class="sample-container">
+                        <div class="sample-main">
+                            <div class="sample-left" data-aos="fade-right" data-aos-once="false" data-aos-duration="1000">
+                                <img src="img/portofolio.png" alt="" class="website-photo">
+                            </div>
+                                <div class="sample-right" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+                                    <div class="sample-text">
+                                    <h1>portfolio Website</h1>
+                                    <div class="line-4"></div>
+                                    <p>My first website, a portfolio website, as part of a course assignment. Given limited time, my teacher provided a template to help me complete the project and submit it. Despite the constraints, I was still able to make the website my own by incorporating my own ideas and style, showcasing my creativity and problem-solving skills.</p>
+                                    <img src="img/portofolio.png" alt="" class="website-photo-hidden">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sample-container">
+                        <div class="sample-main">
+                            <div class="sample-left-2" data-aos="fade-in" data-aos-once="false" data-aos-duration="1000">
+                                <div class="sample-text-2" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+                                    <h1>Al-Quran Website</h1>
+                                    <div class="line-5"></div>
+                                    <p>This portfolio website marks my second project as a web developer. With the guidance of my teacher, I was able to delve deeper into CSS Vanilla, gaining a stronger understanding of its capabilities and limitations.</p>
+                                    </div>
+                                    <img src="img/PROJECT 1.png" alt="" class="website-photo-hidden-2">
+                            </div>
+                                <div class="sample-right-2" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+                                    <img src="img/PROJECT 1.png" alt="" class="website-photo-3">
+                                </div>
+                        </div>
+                    </div>
+                    <div class="sample-container">
+                        <div class="sample-main">
+                            <div class="sample-left" data-aos="fade-right" data-aos-once="false" data-aos-duration="1000">
+                                <img src="img/traviscsot.png" alt="" class="website-photo">
+                            </div>
+                                <div class="sample-right" data-aos="fade-in" data-aos-once="false" data-aos-duration="1000">
+                                    <div class="sample-text" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+                                    <h1>Travis Scott</h1>
+                                    <div class="line-4"></div>
+                                    <p>I recently created this poster for a certification course with DigiUp. Despite the tight deadline of only two hours, I was able to design and produce a visually appealing and impactful piece that effectively communicates the message and purpose of the course.
+                                    </p>
+                                    <img src="img/traviscsot.png" alt="" class="website-photo-hidden">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ratings">
+                    <div class="ratings-container">
+                        <div class="ratings-left" data-aos="fade-right" data-aos-once="false" data-aos-duration="1000">
+                            <div class="ratings-image">
+                                <div class="rick"></div>
+                            </div>
+                        </div>
+                        <div class="ratings-right" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+                            <div class="this">
+                                <img src="" alt="">
+                            </div>
+                                <h3>never get hung up with parents we must strive to achieve success in our own way</h3>
+                                <h4>Haidar Akbar HS</h4>
+                                <p>Professional FRONT-END</p>
+                            </div>
+                        </div>
+                </div>            
+            </section>
+        </article>
+        <!-- Form -->
+        <div class="submission_title" id="portfolio">
+            <h1 data-aos="fade-down" data-aos-duration="700">C</h1>
+            <h1 data-aos="fade-down" data-aos-duration="700" data-aos-delay="50">O</h1>
+            <h1 data-aos="fade-down" data-aos-duration="700" data-aos-delay="100">N</h1>
+            <h1 data-aos="fade-down" data-aos-duration="700" data-aos-delay="150">T</h1>
+            <h1 data-aos="fade-down" data-aos-duration="700" data-aos-delay="200">A</h1>
+            <h1 data-aos="fade-down" data-aos-duration="700" data-aos-delay="250">C</h1>
+            <h1 data-aos="fade-down" data-aos-duration="700" data-aos-delay="300">T</h1>
+        </div>
+        <section class="submission" data-aos="fade-up" data-aos-duration="1000">
+            <form class="submission_form" id="myForm" action="https://formsubmit.co/110e571796daa79fc7fa03e92ed33ff9" method="POST">
+                <input class="email_input" type="email" name="email" required placeholder="EMAIL">
+                <input class="name_input" type="text" name="name" required placeholder="NAME">
+                <input class="text_input" type="text" name="subject" required placeholder="Subject">
+                <textarea class="message_input" name="msg" required placeholder="MESSAGE" rows="6"></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <button class="button_input" type="submit">Submit</button>
+            </form>
+            <script>
+                const form = document.querySelector('.submission_form');
+                const emailInput = form.querySelector('.email_input');
+                
+                form.addEventListener('submit', function(event) {
+                  if (!isEmailValid(emailInput.value)) {
+                    event.preventDefault();
+                    emailInput.classList.add('invalid');
+                    const warning = document.createElement('p');
+                    warning.textContent = 'Please enter a valid email address.';
+                    warning.classList.add('warning');
+                    emailInput.parentNode.insertBefore(warning, emailInput.nextSibling);
+                  }
+                });
+                
+                emailInput.addEventListener('input', function() {
+                  if (isEmailValid(emailInput.value)) {
+                    emailInput.classList.remove('invalid');
+                    const warning = emailInput.parentNode.querySelector('.warning');
+                    if (warning) {
+                      warning.remove();
+                    }
+                  }
+                });
+                
+                function isEmailValid(email) {
+                  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+                }
+            </script>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer__container">
+                    <p class="footer__header">HAIDAR AKBAR HAMMAN SETIAWAN</p>
+                        <div class="socials">
+                            <a href="http://www.youtube.com/planrift">
+                                <i class="uil uil-youtube"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/planrift/">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+                            <a href="mailto:dzikramufidatovid@gmail.com">
+                                <i class="uil uil-envelope"></i>
+                            </a>
+                            <a href="https://www.instagram.com/dzikramufid/">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="http://www.github.com/PlanRift">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>       
+                        <p class="footer__text">I'm looking forward to work with you!</p>
+                    </div>
+                </div>
+            <div class="last__footer">
+                <p class="footer__text-2">copyright @2023 HR</p>
+            </div>
+        </footer>
+        <script>
+            $(window).on('load', function () {
+              $('#loading').fadeToggle();
+            }) 
+          </script>
+    </main>
+
+<!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+<!-- js -->
+    <script src="./js/main.js"></script>
+
+</body>     
+</html>
