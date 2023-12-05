@@ -24,3 +24,5 @@ document.addEventListener("DOMContentLoaded", function() {
   gsap.to(".the-header", {y: 400, duration: 1, delay: 3, ease: CustomEase.create("custom", "M0,0 C0.7,0 0.198,1 1,1 ")})
   gsap.from(".background", {y: 800, duration: 1, delay: 3, ease: CustomEase.create("custom", "M0,0 C0.7,0 0.198,1 1,1 ")});
 });
+
+

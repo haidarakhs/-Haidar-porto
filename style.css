@@ -3,7 +3,7 @@ Codingan zika
     /* root */
 
     :root {
-        --color-darkgrey:  linear-gradient(89.1deg, rgb(251, 0, 83) 15.2%, rgb(179, 146, 231) 98.5%);;
+        --color-darkgrey:  #1a1a1f;
         --color-grey: #1a1a1f;
         --color-black: #1a1a1a;
         --color-yellow: #F1BD48;

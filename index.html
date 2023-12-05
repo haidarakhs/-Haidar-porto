@@ -93,7 +93,7 @@
                 <h1 class="name">Haidar Akbar <br><br> Hamman <br><br> Setiawan</h1>
                 </div>
                 <div class="line"></div>
-                <p style="width: 40vw;">Panggil saya raja front - end</p>
+                <p style="width: 40vw;">Saya siap bekerja sama dengan anda</p>
             </div>
             
         </div>
@@ -352,46 +352,7 @@
             <h1 data-aos="fade-down" data-aos-duration="700" data-aos-delay="250">C</h1>
             <h1 data-aos="fade-down" data-aos-duration="700" data-aos-delay="300">T</h1>
         </div>
-        <section class="submission" data-aos="fade-up" data-aos-duration="1000">
-            <form class="submission_form" id="myForm" action="" method="POST">
-                <input class="email_input" type="email" name="email" required placeholder="EMAIL">
-                <input class="name_input" type="text" name="name" required placeholder="NAME">
-                <input class="text_input" type="text" name="subject" required placeholder="Subject">
-                <textarea class="message_input" name="msg" required placeholder="MESSAGE" rows="6"></textarea>
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
-                <button class="button_input" type="submit">Submit</button>
-            </form>
-            <script>
-                const form = document.querySelector('.submission_form');
-                const emailInput = form.querySelector('.email_input');
-                
-                form.addEventListener('submit', function(event) {
-                  if (!isEmailValid(emailInput.value)) {
-                    event.preventDefault();
-                    emailInput.classList.add('invalid');
-                    const warning = document.createElement('p');
-                    warning.textContent = 'Please enter a valid email address.';
-                    warning.classList.add('warning');
-                    emailInput.parentNode.insertBefore(warning, emailInput.nextSibling);
-                  }
-                });
-                
-                emailInput.addEventListener('input', function() {
-                  if (isEmailValid(emailInput.value)) {
-                    emailInput.classList.remove('invalid');
-                    const warning = emailInput.parentNode.querySelector('.warning');
-                    if (warning) {
-                      warning.remove();
-                    }
-                  }
-                });
-                
-                function isEmailValid(email) {
-                  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-                }
-            </script>
-        </section>
+        
         <footer>
             <div class="footer">
                 <div class="footer__container">
